@@ -100,6 +100,13 @@
 			.banner{
 				top: 50%;
 			}
+			
+			/* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
+			@media only screen and (max-device-width: 1024px) {
+			.parallax1, .parallax2, .parallax3 {
+				background-attachment: scroll;
+				   }
+				}
 		</style>
 		
 	<div class="parallax1"></div>
@@ -169,7 +176,6 @@
 	</div></div>
 	</main>
 	<!--\ Main Layout -->
-
 	<!-- Footer -->	
 	<footer class="page-footer elegant-color center-on-small-only">
 	<!--Footer Links-->
